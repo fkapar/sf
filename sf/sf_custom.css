@@ -1,0 +1,212 @@
+.widget-user .card-footer {
+	padding-top: 5px;
+}
+.widget-user .widget-user-image {
+	left: 4px;
+	margin-left: 0;
+	position: absolute;
+	top: 130px;
+}
+.widget-user .widget-user-header {
+	border-top-left-radius: 0.25rem;
+	border-top-right-radius: 0.25rem;
+	height: 212px;
+	padding: 1rem;
+	text-align: center;
+}
+#user_name{
+	color: black;
+	margin-left: 25px;
+	margin-top: 0px;
+	text-align: left;
+}
+#channel_name{
+	color: black;
+	margin-left: 25px;
+	margin-top: -7px;
+	text-align: left;
+}
+
+span.description-text {
+	font-size:12px;
+}
+
+#numbers{
+	font-size:10px;
+}
+
+@media (max-width: 576px) {
+	.my-element {
+		display: none;  /* Hide the element on mobile */
+	}
+
+	.my-element-mobile {
+		display: block; /* Display the element on mobile */
+	}
+}
+
+.rank{
+	color:#888da8;
+	font-size:12px;
+	font-weight:normal;
+	padding-top:5px;
+}
+
+.rank-value{
+	color:#008080;
+	font-size:20px;
+	font-weight:bold;
+}
+
+.channel_infos{
+	color : #495057;
+}
+
+
+.card {
+	border-radius:5px;
+	border:1px solid #e6ecf5;
+}
+
+.description-header{
+	font-size:14px !important;
+	padding-top:13px;
+}
+
+body {
+	margin: 0;
+	font-family: Roboto,-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI","Helvetica Neue",Arial,sans-serif;
+	font-size: .812rem;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #888da8;
+	background-color: #edf2f6;
+}
+.channel-name-background {
+	position: absolute;
+	height: 80px;
+	bottom: 65px;
+	background-color: #fff;
+	left: 74px;
+	border-top-right-radius: 10px;
+	padding-right: 7px;
+	padding-top:3px;
+}
+
+.toplam_puan {
+	line-height: 197px;
+	text-align: center;
+	color: #fff;
+	font-size: 6em;
+	font-weight: bold;
+	background-color:var(--puan-arkaplan-renk);
+	border-radius:5px;
+	width: 100%;
+}
+
+.total_grade_text{
+	color: #fff;
+	position: absolute;
+	margin-top: 140px;
+	width: 100%;
+	text-align: center;
+}
+
+.navbar-collapse {
+  transition: height 0.2s; /* Açılma ve kapanma süresini 0.2 saniyeye ayarlayın */
+}
+
+@media (max-width: 767px) {
+	.channel-name-background {
+		position: relative;
+		bottom: -117px;
+		padding-top: 8px;
+		left: 16px;
+	}
+
+	#user_name{
+		color: black;
+		margin-left: 70px;
+		margin-top: 0px;
+		text-align: left;
+		overflow: auto;
+	}
+
+	#channel_name{
+		color: black;
+		margin-left: 70px;
+		margin-top: -7px;
+		text-align: left;
+	}
+
+	.border-right {
+
+		border-right: none !important; /* Remove the right border */
+		border-bottom: 1px solid #ccc; /* Add a bottom border */
+	}
+
+	.toplam_puan {
+		line-height: 115px;
+		text-align: center;
+		color: #fff;
+		font-size: 7em;
+		font-weight: bold;
+
+		border-radius:5px;
+		width: 100%;
+	}
+
+	.total_grade_text{
+		color: #fff;
+		position: absolute;
+		margin-top: 93px;
+		width: 100%;
+		text-align: center;
+	}
+}
+
+
+@media (max-width:920px) {
+	.toplam_puan {
+		line-height: 115px;
+		text-align: center;
+		color: #fff;
+		font-size: 4em;
+		font-weight: bold;
+		border-radius:5px;
+		width: 100%;
+	}
+	.total_grade_text{
+		color: #fff;
+		position: absolute;
+		margin-top: 90px;
+		width: 100%;
+		text-align: center;
+	}
+}
+
+@media (max-width:1024px) {
+	.toplam_puan {
+		line-height: 115px;
+		text-align: center;
+		color: #fff;
+		font-size: 4em;
+		font-weight: bold;
+		border-radius:5px;
+		width: 100%;
+	}
+	.total_grade_text{
+		color: #fff;
+		position: absolute;
+		margin-top: 90px;
+		width: 100%;
+		text-align: center;
+	}
+}
+
+/* Mobil cihazlarda navbar'ı tam genişlikte yap */
+@media (max-width: 767px) {
+  .navbar {
+    width: 100%;
+  }
+}

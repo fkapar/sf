@@ -1,0 +1,47 @@
+	<div class="content">
+		<div class="container mt-2">
+			<div class="row justify-content-center">
+				<div class="col-md-12">
+					<div class="card shadow-none"  style = "border:0px;">
+						<div class="card-body text-center">
+						<h1>Simplified Analytics right at your fingertips!</h1>
+							<p class = "text-align: center;">Social Blade gives all users access to our public database which, using advanced technology, is able to provide you with global analytics for any content creator, live streamer, or brand. Whether you are looking up popular YouTube creators, or Twitch streamers playing a specific game, Social Blade has you covered! We are always looking to expand our features to give our users the best experience possible.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="content">
+		<div class="container mt-2">
+			<div class="row justify-content-center">
+				<div class="col-md-4">
+					<div class="card shadow-none"  style = "border:0px;">
+						<div class="card-body text-center">
+							<img src="images/rank.png" alt="Resim" class="img-fluid" height = "100px;">
+							<h5 class="mt-1">RANK YOUR VIDEOS</h5>
+							<p>We have a powerful analysis tool to boost the performance and engagement of your social media accounts! The 'Rank Your Videos' platform offers comprehensive analysis to enhance the online visibility of your videos and content. It helps you optimize your strategies by using data to move your accounts to higher rankings and gain more views, likes, and shares.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="card shadow-none"  style = "border:0px;">
+						<div class="card-body text-center">
+							<img src="images/time.png" alt="Resim" class="img-fluid" height = "100px;">
+							<h5 class="mt-1">GROW YOUR CHANNEL</h5>
+							<p>Social Fern offers a powerful tool to analyze and enhance the performance of your social media channels. We help you reach a larger audience, gain more subscribers, and ensure that your content receives more likes and shares by creating data-driven strategies</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="card shadow-none"  style = "border:0px;">
+						<div class="card-body text-center">
+							<img src="images/calender.png" alt="Resim" class="img-fluid">
+							<h5 class="mt-1">RANK YOUR VIDEOS</h5>
+							<p>We have a powerful analysis tool to boost the performance and engagement of your social media accounts! The 'Rank Your Videos' platform offers comprehensive analysis to enhance the online visibility of your videos and content. It helps you optimize your strategies by using data to move your accounts to higher rankings and gain more views, likes, and shares.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
